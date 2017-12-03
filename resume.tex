@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Larry Chiem 
+% Author : Sourabh Bajaj
 % License : MIT
 %------------------------
 
@@ -24,8 +24,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
@@ -74,8 +74,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{/https://github.com/Chiemychanga}{\Larry Chiem}} & Email : \href{mailto:larrypchiem@gmail.com}{clarry@pdx.edu}\\
-  \href{https://github.com/Chiemychanga}{https://github.com/Chiemychanga/} & Mobile : 503-929-2929 \\
+  \textbf{\href{https://github.com/Chiemychanga}{\Large Larry Chiem}} & Email : \href{mailto:larrypchiem@gmail.com}{larrypchiem@gmail.com}\\
+  \href{https://github.com/Chiemychanga}{https://github.com/Chiemychanga} & Mobile : 503-929-2929 \\
 \end{tabular*}
 
 
@@ -91,13 +91,22 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
+    \resumeSubheading
+    {Martti Local Access Network}{Portland, OR}
+    {Call Center Operator}{Nov. 2017 - Present}
+    \resumeItemListStart
+      \resumeItem{Customer Service}
+        {Connecting healthcare providers with language interpreters so they can treat all patients with the same superior quality care.}
+    \resumeItemListEnd
+    
     \resumeSubheading
       {CDK Global}{Portland, OR}
       {Software Developer Engineer Intern}{June 2017 - Sept 2017}
       \resumeItemListStart
         \resumeItem{DMS Migrations Dashboard}
           {DMS(Data Management Systems) Migrations Dashboard is a dashboard that retrieves a database from JIRA using MongoDB and displays sorted JSON data.}
+        \resumeItem{CDK Chatbot}
+      {Integrating a Chatbot on CDK Global's website using Microsoft's Azure Bot Service.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -105,7 +114,7 @@
       {C++ Data Structures Grader}{Sept. 2016 - March 2017}
       \resumeItemListStart
         \resumeItem{Data Structure Programs Grader}
-          {Using a grading ruberic from my manager, I troubleshooted student's C++ Data Structureprograms using GDB and valgrind. I graded writing papers and code in this position. I always did my best to give the best feedback to students since I was once in this difficult class.}
+          {Using a grading ruberic from my manager, I troubleshooted student's C++ Data Structure programs using GDB and valgrind. I graded writing papers and code in this position. I always did my best to give the best feedback to students since I was once in this difficult class.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -114,26 +123,39 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{CDK Chatbot}
-      {Integrating a Chatbot on CDK Global's website using Microsoft's Azure Bot Service.}
+    \resumeSubItem{Bootstrap Portfolio}
+        {An online portfolio on Github that displays my projects.}
     \resumeSubItem{Tri-met App}
-      {Replicated the Tri-Met app on to a website that always showed a valid expiration time.}
-    \resumeSubItem{HYPED! Quackcon Project}
-      {Multiplatform responsive web app that created small polls and raffles based off the live game the user is in.}
+        {Replicated the Tri-Met app to to hopefully get free bus fare during rough times.}
+    \resumeSubItem{HYPED! Quackcon Hackathon Project}
+         {Multi-platform responsive web app that created small polls and raffles based off the live game the user is in.}
     \resumeSubItem{Scrabble}
-      {A terminal friendly version of Scrabble that allowed a single player vs computer or a 1 vs 1 mode.}
+        {A terminal friendly version of Scrabble.}
   \resumeSubHeadingListEnd
-
 %
 %--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: HTML & CSS, Javascript, C++, Java}
-%      \hfill
-%    }
-%  \resumeSubHeadingListEnd
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: HTML, CSS, Javascript, C++, Java}
+      %\hfill
+    }
+  \resumeSubHeadingListEnd
 
-
+%--------LEADERSHIP------------
+\section{Leadership}
+    \resumeSubHeadingListStart
+        \resumeSubheading{President of Association for Computing Machinery Club}{Portland, OR}
+        {Portland State University}{Sept. 2016 - June 2017}
+    \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+        \resumeSubheading{President of Super Smash Bros Club}{Portland, OR}
+        {Portland Community College}{Sept. 2013 - June 2014}
+    \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+        \resumeSubheading{Peer Mentor Snowboarding}{Mt.Hood, OR}
+        {Burton's CHILL Program}{Sept. 2008 - May 2014}
+    \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
+
